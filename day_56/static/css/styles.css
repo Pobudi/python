@@ -1,0 +1,123 @@
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 400%;
+}
+
+h2 {
+    font-size: 300%;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+}
+
+hr {
+  width: 80%;
+  border-style: dotted none none;
+  border-width: 7px;
+  border-color: grey;
+}
+
+p {
+    font-size: 200%;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 550px;
+}
+
+.contact {
+    margin-top: 50px;
+    height: 10%;
+    width: 10%;
+
+}
+
+.earth {
+    height: 25%;
+    width: 25%;
+}
+
+.img_margin {
+    margin-top: 150px;
+    margin-bottom: 75px;
+}
+
+.map {
+    height: 25%;
+    width: 25%;
+}
+
+.mountain {
+    position: relative;
+    top: 40px;
+    margin-bottom: 75px;
+}
+
+.podpisy {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+
+.socials {
+    width: 300px;
+    height: 100px;
+    margin-right: 575px;
+    margin-left: auto;
+    margin-bottom: 150px;
+}
+
+.top {
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+#facebook {
+    margin-top: 10px;
+    background-color: #4668b3;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    float: left;
+}
+
+#instagram {
+    margin-top: 10px;
+    background-color: #F84D9D;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    margin-left: 75px;
+    float: left;
+}
+
+#facebook:hover {
+    background-color: #3557a2;
+}
+
+#instagram:hover {
+	background-color: #D73C8C;
+}
