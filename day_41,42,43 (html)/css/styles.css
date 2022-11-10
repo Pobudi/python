@@ -1,0 +1,39 @@
+body {
+  background-color: #FFF1CE;
+}
+hr {
+  width: 20%;
+  border-style: dotted none none;
+  border-width: 7px;
+  border-color: grey;
+}
+img:hover {
+  height: 200px;
+  background-color: gold;
+}
+
+h1 {
+  color: #86C6F4;
+}
+
+h3 {
+  color: #86C6F4;
+}
+/**** Classes ****/
+.F1 {
+  background-color: green;
+}
+
+.Police {
+  background-color: blue;
+}
+
+.Circle {
+  border-radius: 100%;
+}
+
+/**** IDs ****/
+
+#heading {
+  color:aqua;
+}
