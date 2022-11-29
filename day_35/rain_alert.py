@@ -34,10 +34,10 @@ if if_rain or if_snow:
         message = client.messages.create(
             body="Bedzie dzisiaj padal deszcz",
             from_="+18647347031",
-            to="+48692530966")
+            to="receiver phone number")
     else:
         message = client.messages.create(
             body="Bedzie dzisiaj padal snieg",
             from_="+18647347031",
-            to="+48692530966")
+            to="receiver phone number")
     print(message.status)
